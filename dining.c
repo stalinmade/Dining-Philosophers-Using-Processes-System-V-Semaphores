@@ -132,6 +132,7 @@ void main()
                                                 wait(0);
                                                 wait(0);
                                                 wait(0);
+                                                semctl(id, 0, IPC_RMID);
                                         }
                                 }
                         }
