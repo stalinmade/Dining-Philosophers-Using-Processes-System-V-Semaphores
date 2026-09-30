@@ -1,30 +1,64 @@
+****************************Execution-1*********************************
+fork 1 avaliable
+fork 2 avaliable
+fork 3 avaliable
+fork 4 avaliable
+fork 5 avaliable
+------Philosopher 2 is waiting------
+Philosopher 2 eating
+Philosopher 2 is using fork 1 and 2
+------Philosopher 1 is waiting------
+------Philosopher 3 is waiting------
+------Philosopher 5 is waiting------
+Philosopher 5 eating
+Philosopher 5 is using fork 4 and 5
+------Philosopher 4 is waiting------
+fork 1 and 2 are avalible
+Philosopher 2 done eating
+Philosopher 3 eating
+Philosopher 3 is using fork 2 and 3
+fork 4 and 5 are avalible
+Philosopher 5 done eating
+Philosopher 1 eating
+Philosopher 1 is using fork 5 and 1
+fork 2 and 3 are avalible
+Philosopher 3 done eating
+fork 5 and 1 are avalible
+Philosopher 1 done eating
+Philosopher 4 eating
+Philosopher 4 is using fork 3 and 4
+fork 3 and 4 are avalible
+Philosopher 4 done eating
+*****************************************************************************************
+********************************Execution-2**********************************************
 fork 1 avaliable
 fork 2 avaliable
 fork 3 avaliable
 fork 4 avaliable
 fork 5 avaliable
 ------Philosopher 1 is waiting------
-------Philosopher 2 is waiting------
-Philosopher 1 executing: 29092
+Philosopher 1 eating
 Philosopher 1 is using fork 5 and 1
+------Philosopher 2 is waiting------
 ------Philosopher 3 is waiting------
-Philosopher 3 executing: 29094
-Philosopher 3 is using fork 3 and 4
+Philosopher 3 eating
+Philosopher 3 is using fork 2 and 3
 ------Philosopher 4 is waiting------
 ------Philosopher 5 is waiting------
-Philosopher 1 is relesed fork 5 and 1
-Philosopher 1 done: 29092
-Philosopher 3 is relesed fork 3 and 4
-Philosopher 3 done: 29094
-Philosopher 5 executing: 29096
-Philosopher 5 is using fork 5 and 1
-Philosopher 2 executing: 29093
-Philosopher 2 is using fork 2 and 3
-Philosopher 5 is relesed fork 5 and 1
-Philosopher 5 done: 29096
-Philosopher 2 is relesed fork 2 and 3
-Philosopher 2 done: 29093
-Philosopher 4 executing: 29095
-Philosopher 4 is using fork 4 and 5
-Philosopher 4 is relesed fork 4 and 5
-Philosopher 4 done: 29095
+fork 5 and 1 are avalible
+Philosopher 1 done eating
+fork 2 and 3 are avalible
+Philosopher 3 done eating
+Philosopher 5 eating
+Philosopher 5 is using fork 4 and 5
+Philosopher 2 eating
+Philosopher 2 is using fork 1 and 2
+fork 1 and 2 are avalible
+fork 4 and 5 are avalible
+Philosopher 2 done eating
+Philosopher 5 done eating
+Philosopher 4 eating
+Philosopher 4 is using fork 3 and 4
+fork 3 and 4 are avalible
+Philosopher 4 done eating
+*****************************************************************************************
